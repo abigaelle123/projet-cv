@@ -1,0 +1,190 @@
+body{
+	font-family: arial;
+
+}
+#wrap{
+	margin: 0 auto;
+	width: 786px;
+}
+h2{
+	margin-top: 0px;
+}
+header{
+	background-color: #000033;
+	color: #FFFFFF;
+	text-align: right;
+	margin: 0;
+	padding-top: 30px;
+}
+header h1{
+	font-size: 36px;
+	text-align: center;
+}
+.photodeprofil{
+	position: absolute;
+	border-radius: 50%;
+	width: 126px;
+	left: 505px;
+	top: 41px;
+	border: 2px solid #fff;
+	height: 124px;
+}
+.img-footer{
+	border-radius: 50%;
+}
+#description{
+	overflow: hidden;
+	font-size: 13px;
+	text-align: right;
+}
+#description .quote{
+	width: 463px;
+	float: right;
+	text-align: center;
+}
+#content{
+	overflow: auto;
+}
+
+#cont{
+	width: 699px;
+	margin: 0 auto;
+}
+#content{
+	overflow: auto;
+}
+#cont-left{
+	float: left;
+	width: 247px; 
+}
+#cont-right{
+	float: right;
+	width: 418px;
+}
+h2.titre{
+	background: url('expicon.png') no-repeat 17px 6px;
+	height: 42px;
+	padding-top: 34px;
+	text-align: center;
+	padding-left: 21px;
+	color: #FFFFFF;
+}
+.titre {
+	text-align: center;
+	color: black;
+}
+#experiences{
+	background-color: #305A33;
+	padding: 13px;
+	margin-top: 0;
+	overflow: hidden;
+}
+#footer{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	padding: 18px 0;
+	height: 57px;
+	background: #000033;
+	text-align: center;
+}
+#diplomes{
+	background-color: #3C3757;
+	margin-bottom: 37px;
+	margin-top: 55px;
+}
+#competences, #experiences, #diplomes, #loisirs{
+	height: 70px; 
+	-webkit-transition: height 1s;
+    transition: height 1s;
+}
+#competences:hover, #experiences:hover, #diplomes:hover, #loisirs:hover{height: 300px;}
+h2.titre2{
+	background: url(diplome.png) no-repeat 41px 18px;
+	height: 60px;
+	text-align: center;
+	padding-top: 24px;
+	color: #FFFFFF;
+}
+#experiences:hover .hide,#diplomes:hover .hide{
+	display: table;
+}
+.hide{
+	display:none;
+	-webkit-transition: all 2s; /* Safari */
+    transition: all 2s;
+}
+#competences:hover .hide, #loisirs:hover .hide{
+	display: block;
+}
+
+#experiences td,#diplomes td{
+	padding: 20px;
+}
+#experiences td,#diplomes table{
+	color: #FFFFFF;
+	padding: 12px;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	padding-left: 13px;
+	margin: 0;
+}
+#competences{
+	background-color: #1F4A52;
+	margin-top: 0px;
+	padding: 12px;
+
+}
+h2.titre3{
+	background: url(comp.png) no-repeat;
+	height: 51px;
+	text-align: center;
+	padding-top: 13px;
+	color: #FFFFFF;
+}
+#competences li{
+	padding: 23px;
+	color: #FFFFFF;
+}
+#loisirs{
+	background-color: #D31D1D;
+	margin-top: 57px;
+	overflow: hidden;
+
+}
+h2.titre4{
+	background: url(loisirs.png) no-repeat 0px -13px;
+	height: 48px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 22px;
+}
+#loisirs li{
+	padding: 23px; 
+	color: #FFFFFF;
+}
+p{
+	font-style: italic;
+	margin:2em 4em;
+
+}
+p:before{
+	position:relative;
+	top:0.2em;
+	padding-right:0.1em;
+	font-size:2em;
+	color: #FF0000;
+	font-weight:bold;
+	content:"\201C";
+}
+p:after{
+	position:relative;
+	top:0.2em;
+	padding-left:0.1em;
+	font-size:2em;
+	color: #FF0000;
+	font-weight:bold;
+	content:"\201D";
+}
